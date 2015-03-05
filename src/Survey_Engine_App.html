@@ -1,0 +1,28 @@
+<html>
+<head><title>Questionnaire</title></head>
+<body>
+<font color=#1346AD size=+3>Survey Application Input</font>
+<script src="support_script.js"></script>
+<form action="" name="myform">
+<br>1) Please enter a survey question: <input type="text" name="question" id="question_text"><br>
+
+<br>2) Please select the type of response to the question: <br>
+<br><input type="radio" name="radio1" value="Radio Button">Radio Button<br>
+<input type="radio" name="radio1" value="Check Box">Check Box<br>
+<input type="radio" name="radio1" value="Dropdown">Dropdown<br>
+<input type="radio" name="radio1" value="Text Input">Text Input<br>
+
+<br>3) If response is radio button, checkbox or dropdown, please enter the answer choices for it separated by semicolons: <input type="text" name="responsevals" id="respval"><br>
+
+<div>
+<br><button type="button" onclick="getValues()" >Add more questions to the survey form</button>
+<button type="button" onclick="testPrint()" >Submit added questions to survey form</button><br>  <!--getValues()-->
+</div>
+<!--<br><input type="submit" value="Add choices" /><br>-->
+
+
+</form>
+
+
+</body>
+</html>
