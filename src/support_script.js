@@ -223,4 +223,3 @@ function testPrint() {
 	document.write("</html>");
 	}
 }
-
