@@ -7,6 +7,7 @@ String.prototype.format = function() {
 };
 
 function checkEmptystr(my_arr){
+	
    for(var i=0;i<my_arr.length;i++){
        if(my_arr[i] === "")   
           return false;
